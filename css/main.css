@@ -4,7 +4,6 @@
 
 h1 {
 
-
   margin: 3.5em;
   font-size: 48px;
   text-align: center;
@@ -20,7 +19,6 @@ h1 {
 
 div.container1 p {
 
-
       letter-spacing: 0.75px;
       font-family: 'Crimson Text', serif;
       font-size: 18px;
@@ -29,60 +27,11 @@ div.container1 p {
 
    
 
-
      }
 
 
-     button.haButton {
 
-
-       width: 100px;
-       height: 50px;
-       border-radius: 8px;
-       border: none;
-       background-color: #ffc8c8;
-       color: white;
-       font-family: 'Montserrat', sans-serif;
-       font-size: 12px;
-       letter-spacing: 2px;
-       text-align: center;
-       position: absolute;
-       right: 600px;
-       top: 225px;
-
-}
-
-       button.haButton {
-
-           background: linear-gradient(290deg, #fce7e7, #fcd0d0, #a8d6fa, #d4f7f8);
-           background-size: 800% 800%;
-
-           -webkit-animation: AnimationName 5s ease infinite;
-      -moz-animation: AnimationName 5s ease infinite;
-      -o-animation: AnimationName 5s ease infinite;
-      animation: AnimationName 5s ease infinite;
-
-
-      -webkit-transition-duration: 0.4s; /* Safari */
-      transition-duration: 0.4s;
-
-       }
-
-       button.haButton:hover {
-
-
-
-          background-color: #4CAF50;
-           color: white;
-
-
-
-
-
-
-       }
-
-
+     
 
 
 
@@ -109,47 +58,6 @@ div.container1 p {
        -moz-animation-delay: 0.3s;
        animation-delay: 0.3s;
      }
-
-     .fade-in2{
-       opacity:0;
-       opacity: 1 \9;
-       -webkit-animation:fadeIn ease-in 1;
-       -moz-animation:fadeIn ease-in 1;
-       animation:fadeIn ease-in 1;
-
-       -webkit-animation-fill-mode:forwards;
-       -moz-animation-fill-mode:forwards;
-       animation-fill-mode:forwards;
-
-       -webkit-animation-duration:1.9s;
-       -moz-animation-duration:1.9s;
-       animation-duration:1.9s;
-
-       -webkit-animation-delay: 0.5s;
-       -moz-animation-delay: 0.5s;
-       animation-delay: 0.5s;
-     }
-
-     .fade-in3{
-       opacity:0;
-       opacity: 1 \9;
-       -webkit-animation:fadeIn ease-in 1;
-       -moz-animation:fadeIn ease-in 1;
-       animation:fadeIn ease-in 1;
-
-       -webkit-animation-fill-mode:forwards;
-       -moz-animation-fill-mode:forwards;
-       animation-fill-mode:forwards;
-
-       -webkit-animation-duration:2s;
-       -moz-animation-duration:2s;
-       animation-duration:2s;
-
-       -webkit-animation-delay: 1s;
-       -moz-animation-delay: 1s;
-       animation-delay: 1s;
-     }
-
 
      @-webkit-keyframes AnimationName {
          0%{background-position:0% 63%}
