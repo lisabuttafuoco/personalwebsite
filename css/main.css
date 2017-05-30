@@ -1,5 +1,10 @@
 
-
+wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
 
 
 h1 {
@@ -17,7 +22,7 @@ h1 {
 }
 
 
-div.container1 p {
+one {
 
       letter-spacing: 0.75px;
       font-family: 'Crimson Text', serif;
