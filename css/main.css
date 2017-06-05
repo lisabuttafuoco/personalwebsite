@@ -1,15 +1,14 @@
 
-wrapper {
+container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
 }
 
 
+  row.mid
+    col-md-offset-1.col-md-10
 h1 {
-
-  margin: 3.5em;
+  
   font-size: 48px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
@@ -22,7 +21,7 @@ h1 {
 }
 
 
-one {
+ {
 
       letter-spacing: 0.75px;
       font-family: 'Crimson Text', serif;
@@ -34,6 +33,14 @@ one {
 
      }
 
+
+.container
+  .row.top
+    .col-md-offset-1.col-md-10
+  .row.mid
+    .col-md-offset-1.col-md-10
+  .row.bottom
+    .col-md-offset-4.col-md-4
 
 
      
