@@ -8,6 +8,9 @@ container {
 
   row.mid
     col-md-offset-1.col-md-10
+{
+grid-area: col-md-offset-1 col-md-10;
+}
 h1 {
   
   font-size: 48px;
