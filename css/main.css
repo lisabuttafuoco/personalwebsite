@@ -6,12 +6,12 @@
 }
 
 
-  row.mid
-    col-md-offset-1.col-md-10
+  .row.mid
+    .col-md-offset-1.col-md-10
 {
 grid-area: col-md-offset-1 col-md-10;
 }
-h1 {
+.h1 {
   
   font-size: 48px;
   text-align: center;
@@ -36,7 +36,6 @@ h1 {
    
 
      }
-
 
 
 
