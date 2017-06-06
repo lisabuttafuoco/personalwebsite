@@ -32,7 +32,7 @@ footer {
 }
 
 header,
-div,
+div, h1,
 footer {
   display:flex;
   align-items:center;
@@ -42,6 +42,8 @@ footer {
 
 h1 {
   
+  
+  flex:0 0 100vw;;
   font-size: 48px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
