@@ -1,9 +1,9 @@
 
 
 body {
-  display:flex;
-  flex-wrap:wrap;
-  min-height:100vh;
+  display: flex;
+  flex-wrap: nowrap;
+  min-height: 100vh;
   margin:0;
   align-items:stretch;
 }
@@ -27,12 +27,12 @@ footer {
   flex:1 1 20%;
   min-width:200px;
 }
-.content-main {
+.content-main, h1 {
   flex:1 1 60%;
 }
 
 header,
-div, h1,
+div,
 footer {
   display:flex;
   align-items:center;
@@ -42,7 +42,6 @@ footer {
 
 h1 {
  
-  
   font-size: 48px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
