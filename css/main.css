@@ -45,7 +45,7 @@ article
      @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
      @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 
-     .fade-in{
+     h1.fade-in{
        opacity:0;
        opacity: 1 \40;
        -webkit-animation:fadeIn ease-in 1;
